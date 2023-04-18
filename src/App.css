@@ -3,12 +3,14 @@
 * > * {
     font-family: "Montserrat", cursive;
     margin: 0;
+    font-style: normal;
+    
 }
 
 body{
   background: white;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-  
+/*  font-family: 'Montserrat';*/
 }
 
 .App {
@@ -47,18 +49,34 @@ body{
   text-align: left;
 }
 
+#form > .firstname{
+  text-align: left;
+}
+#form > .lastname{
+  text-align: left;
+}
+#form > .address{
+  text-align: left;
+}
+#form > .postalcode{
+  text-align: left;
+}
+
+#form > input:focus{
+  outline: none;
+}
 
 #form > .btn{
   
-  color: rgb(177, 126, 31);
+  color: orange;
   font-size: 1em;
   cursor: pointer;
   position: absolute;
   width: 310px;
   height: 60px;
-  top: 133px;
+  top: 433px;
   background: #D6B27D;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .flex{
@@ -82,7 +100,7 @@ body{
     position: absolute;
     margin-top: -600px;
     margin-bottom: -100px;
-    margin-left: 100px;
+    margin-left: -150px;
 }
 .product-img1{
     height: 50px;
@@ -93,44 +111,37 @@ body{
     position: absolute;
     margin-top: -600px;
     margin-bottom: -100px;
-    margin-left: 100px;
-    margin-right: -90px;
+    margin-left: -150px;
+/*    margin-right: -150px;*/
 }
 .product-title{
-  
+  top: 0px;
+  bottom: 0px;
   margin-top: -580px;
-  margin-bottom: -100px;
-  margin-left: -900px;
+  margin-bottom: 40px;
+  margin-left: 70px;
+  text-align: right;
+  position: relative;
+}
+.product-title1{
+  margin-top: 60px;
+  margin-bottom: 40px;
+  margin-left: 60px;
   text-align: right;
   position: relative;
 }
 .price{
-  margin-right: -650px;
-  margin-top: 110px;
-  margin-left: -100px;
-}
-.prod-title1{
-  margin-top: 50px;
-  margin-bottom: -900px;
-  margin-left: 600px; 
-  position: relative;
+  margin-top: -40px;
 }
 .price1{
-  margin-right: -650px;
-  margin-top: 900px;
-  margin-left: -100px;
-}
-.btn-success{
-  margin-left: 500px;
-  position: relative;
-  margin-top: -70px;
+  margin-top: -40px;
+  margin-left: -10px;
 }
 .total{
-  margin-left: 400px;
   margin-top: 50px;
 }
 .btn-success{
-  margin-bottom: -800px;
+  text-align: center;
 }
 
 .product-img1{
@@ -141,7 +152,12 @@ body{
 
 }
 
-
+/*.product-title{
+    height: 48px;
+    width: 376px;
+    margin-left: 240px;
+    margin-top: -430px;
+}*/
 
 .flex-col{
   flex-direction: column;
@@ -160,23 +176,7 @@ body{
   margin: auto;
   padding: 3em 0;
 }
-.email-box{
-  height: 250px;
-  width: 900px;
-  margin-left: 220px;
-  text-align: center;
-  left: 0px;
-  top: 0px;
-  margin-top: 400px;
-  border-radius: 56px;
-  border: solid;
-  /* border-radius: 2px;
-   */
-   border-width: 1px;
-  border-color: #FFE5D8;
-  background: #FFE5D8;
-  border: 1px solid #FFE5D8;
-}
+
 
 
 /*.register .col-2 img{
