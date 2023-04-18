@@ -1,0 +1,358 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+  }
+  
+.main{
+    position: absolute;
+    width: 1600px;
+    left: 0px;
+    top: -50px;
+    background: #FFE5D8;
+}
+
+
+
+  .header{
+    background: url('images/Bitmap.png') bottom center no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    border-radius: 10px;
+    
+  }
+
+  .logo{ 
+    position: absolute;
+    width: 300px;
+    height: 148.35px;
+    left: 627px;
+    top: 246px;
+  }
+
+  .supplier_prof{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1548px;
+    top: 19px;
+
+    background: url('images/Profile.png');
+  }
+
+.header_top{
+    height: 70px;
+    width: 1600px;
+    border-radius: 0px;
+    
+    background: #FFFFFF;
+    box-shadow: inset 0px -1px 0px #E2E2EA;
+}
+
+.header_top_action1{
+    position: absolute;
+    height: 17px;
+    width: 61px;
+    left: 728.5px;
+    top: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    letter-spacing: 0.1px;
+    
+    color: #D8B37D;
+    
+}
+
+.hr{
+    position: absolute;
+    height: 72px;
+    width: 3px;
+    left: 723px;
+    top: 69.5px;
+
+
+    background: #D8B37D;
+    transform: rotate(-90deg);
+}
+
+.header_top_action2{
+    position: absolute;
+    height: 17px;
+    width: 33px;
+    left: 844.5px;
+    top: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    letter-spacing: 0.1px;
+    
+    color: #171725;
+    
+}
+
+
+
+
+.login-radio-label1{
+    position: absolute;
+    width: 239px;
+    height: 18px;
+    left: 515px;
+    right: 837px;
+    bottom: 843.5;
+    top: 467px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 1.3px;
+   
+    color: #92929D;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.login-radio-btn1{
+    position: absolute;
+    width: 25px;
+    height: 40px;
+    top: 457px;
+    right: 1091px;
+    bottom: 832.5px;
+    background: #92929D;
+}
+
+.login-radio-label2{
+    position: absolute;
+    width: 235px;
+    height: 18px;
+    left: 945px;
+    top: 467px;
+    bottom: 843.5px;
+    right: 448px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 1.3px;
+    color: #D8B37D;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.login-radio-btn2{
+    position: absolute;
+    width: 25px;
+    height: 40px;
+    top: 457px;
+    right: 663px;
+    bottom: 832.5px;
+
+    color: #D8B37D;
+}
+
+
+
+/* ===================Container============================== */
+.container-signup{
+      
+  }
+
+  .sub-main{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+    padding-top: 50px;
+    background: #FFFFFF;
+    height: 850px;
+    width: 574px;
+    left: 515px;
+    top: 546px;
+    border-radius: 20px;
+    
+  }
+
+  .user-top-text1{
+    position: absolute;
+    height: 17px;
+    width: 227px;
+    left: 162px;
+    top: 32px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    
+    text-align: center;
+    letter-spacing: 1px;
+    
+    color: #B5B5BE;
+  }
+
+  .user-top-text2{
+    position: absolute;
+    height: 36px;
+    width: 264px;
+    left: 148px;
+    top: 74px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    
+    color: #171725;
+    bottom: 66px;
+  }
+
+  .signup-label{
+    position: relative;
+    height: 24px;
+    width: 89px;
+    left: 42px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1A202C;
+    margin-bottom: 16px;
+}
+
+.signup-input{
+    position: relative;
+    box-sizing: border-box;
+    height: 52px;
+    width: 447px;
+    border: none;
+    border-bottom: 1px solid #D8B37D;;
+    background: #fff;
+    margin-left: 483px;
+    padding: 0 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1px;  
+    color: #B5B5BE; 
+    margin-bottom: 48px;
+     }
+
+  .btn-signup{
+    position: relative;
+    height: 64px;
+    width: 496px;
+    right: 467px;
+    top: 546px;
+    background: #D8B37D; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 40px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+
+.first-input{
+    position: relative;
+    top: 66px;
+}
+
+.text1{
+    background-image: url('./images/user_icon.png');
+    background-position: 6px 17px; 
+    background-repeat: no-repeat;
+    width: 200px;
+}
+
+.text2{
+  background-image: url('./images/user_icon.png');
+  background-position: 6px 17px; 
+  background-repeat: no-repeat;
+  width: 200px;
+  float: right;
+  bottom: 100px;
+}
+.city{
+    background-image: url('./images/email_icon.png');
+    background-position: 2px 17px; 
+    background-repeat: no-repeat;
+    bottom: 100px;
+    
+}
+.post{
+    background-image: url('./images/phone.png');
+    background-position: 6px 17px; 
+    background-repeat: no-repeat;
+    bottom: 100px;
+}
+
+.address{
+  background-image: url('./images/add.png');
+  background-position: 6px 17px; 
+  background-repeat: no-repeat;
+  bottom: 100px;
+}
+
+.category{
+  background-image: url('./images/cate.png');
+  background-position: 6px 17px; 
+  background-repeat: no-repeat;
+  bottom: 100px;
+}
+
+.supplier-signup-text1{
+    position: relative;
+    height: 15px;
+    width: 400px;
+    right: 381px;
+    top: 566px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #92929D;
+}
+
+.supplier-signup-text2{
+    position: absolute;
+    height: 15px;
+    width: 252px;
+    left: 144px;
+    top: 721px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #D8B37D;
+}
+
+.supplier-signup-text2-a{
+  text-decoration: none;
+  color: #D8B37D;
+  cursor: pointer;
+}
+
+.supplier-signup-text2-a:hover{
+  color: #D8B37D;
+}
